@@ -12,7 +12,7 @@ The first thing we try is to plot the average V[0] and V[1] for different "quali
 
 ![alt text](https://github.com/cs155cctw/project2/blob/master/plots/visualize_V_averageV_all_ratings.png)
 
-So we clearly see that **the V[0] we get represents the quality of the movie: the better the movie, the smaller V[0] is.**
+So we clearly see that **the V[0] we get represents the quality of the movie: the better the movie, the larger V[0] is.**
 
 The next thing we try is to plot the average V[0] and V[1] for different "popularity" of movies (here "popularity" means total number of ratings), below is the plot (the label shows the range of the total number of ratings N_R):
 
@@ -20,7 +20,7 @@ The next thing we try is to plot the average V[0] and V[1] for different "popula
 
 Surprisingly, we also see that **the V[1] we get represents the popularity of the movie: the more popular the movie, the smaller V[1] is.**
 
-**Conclusion: pupolar and good movies will appear in the bottom-left cornor of our V[0]-V[1] plot, and less-popular and bad movies will appear in the top-right cornor of out plot.**
+**Conclusion: pupolar and good movies will appear in the bottom-right cornor of our V[0]-V[1] plot, and less-popular and bad movies will appear in the top-left cornor of out plot.**
 
 To verify this, we choose ten random movies, and plot their V[0] and V[1], and the numbers in the braket after the name of the movie means (NR, R), where NR is the number of ratings to that movie, and R is the average rating of that movie:
 
@@ -33,7 +33,7 @@ Another simple verification: we plot the ten most popular movies -  not surprisi
 ![alt text](https://github.com/cs155cctw/project2/blob/master/plots/visualize_V_mostpopular10movies.png)
 
 
-And we also plot the best 10 movies - which all sit in the left side of the plot:
+And we also plot the best 10 movies - which all sit in the right side of the plot:
 
 ![alt text](https://github.com/cs155cctw/project2/blob/master/plots/visualize_V_best10movies.png)
 
