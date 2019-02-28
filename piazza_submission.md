@@ -31,3 +31,10 @@ We see that the rule we observe above is basically correct:  pupolar and good mo
 And some other verification: we plot the ten most popular movies -  not surprisingly, they all sits at the bottom of the plot:
 
 ![alt text](https://github.com/cs155cctw/project2/blob/master/plots/visualize_V_mostpopular10movies.png)
+
+
+And we also plot the best 10 movies - which all sits in the left side of the plot:
+
+![alt text](https://github.com/cs155cctw/project2/blob/master/plots/visualize_V_best10movies.png)
+
+The END.
