@@ -1,4 +1,4 @@
-# Team JETLAG: Visualization sVubmission
+# Team JETLAG: Visualization Submission
 
 ## Submitted by: Liuchi Li, Stephanie (Weimeng) Kong, Xiao Tong, Zhicai Zhang
 
