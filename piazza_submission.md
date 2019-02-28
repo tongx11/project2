@@ -20,7 +20,7 @@ The next thing we try is to plot the average V[0] and V[1] for different "popula
 
 Surprisingly, we also see that **the V[1] we get represents the popularity of the movie: the more popular the movie, the smaller V[1] is.**
 
-**Conclusion: pupolar and good movies will appear in the left-bottom cornor of our V[0]-V[1] plot, and less-popular and bad movies will appear in the top-right cornor of out plot.**
+**Conclusion: pupolar and good movies will appear in the bottom-left cornor of our V[0]-V[1] plot, and less-popular and bad movies will appear in the top-right cornor of out plot.**
 
 To verify this, we choose ten random movies, and plot their V[0] and V[1], and the numbers in the braket after the name of the movie means (NR, R), where NR is the number of ratings to that movie, and R is the average rating of that movie:
 
