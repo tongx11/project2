@@ -1,6 +1,6 @@
-Team JETLAG: visualization submission
+# Team JETLAG: Visualization sVubmission
 
-Submitted by: Liuchi Li, Stephanie (Weimeng) Kong, Xiao Tong, Zhicai Zhang
+## Submitted by: Liuchi Li, Stephanie (Weimeng) Kong, Xiao Tong, Zhicai Zhang
 
 We directly use the solution code for Homework 5 to find the U and V. And then apply SVD on V and get the first two principal conponents of V.
 
