@@ -17,3 +17,11 @@ So we clearly see that the V[0] we get represents the quality of the movie: the 
 The next thing we tried is to plot the average V[0] and V[1] for different "popularity" of movies (here "popularity" means total number of ratings), below is the plot (the label shows the range of the total number of ratings N_R):
 
 ![alt text](https://github.com/cs155cctw/project2/blob/master/plots/visualize_V_averageV_all_num_of_ratings.png)
+
+Surprisingly, we also see that the V[1] we get represents now the popularity of the movie: the more popular the movie, the smaller V[1] is.
+
+As a conclusion: pupolar and good movies will appear in the left-bottom cornor of our V[0]-V[1] plot, and less-popular and bad movies will appear in the top-right cornor of out plot.
+
+To verify this, we choose ten random movies, and plot their V[0] and V[1], and the numbers in the braket after the name of the movie means (NR, R), where NR is the number of ratings to that movie, and R is the average rating of that movie:
+
+https://github.com/cs155cctw/project2/blob/master/plots/visualize_V_random10movies.png
