@@ -24,4 +24,4 @@ As a conclusion: pupolar and good movies will appear in the left-bottom cornor o
 
 To verify this, we choose ten random movies, and plot their V[0] and V[1], and the numbers in the braket after the name of the movie means (NR, R), where NR is the number of ratings to that movie, and R is the average rating of that movie:
 
-https://github.com/cs155cctw/project2/blob/master/plots/visualize_V_random10movies.png
+![alt text](https://github.com/cs155cctw/project2/blob/master/plots/visualize_V_random10movies.png)
