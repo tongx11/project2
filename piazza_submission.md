@@ -28,12 +28,12 @@ To verify this, we choose ten random movies, and plot their V[0] and V[1], and t
 
 We see that the rule we observe above is basically correct:  pupolar and good movies will appear in the left-bottom cornor of our V[0]-V[1] plot, and less-popular and bad movies will appear in the top-right cornor of out plot.
 
-And some other verification: we plot the ten most popular movies -  not surprisingly, they all sits at the bottom of the plot:
+And some other verification: we plot the ten most popular movies -  not surprisingly, they all appear at the bottom of the plot:
 
 ![alt text](https://github.com/cs155cctw/project2/blob/master/plots/visualize_V_mostpopular10movies.png)
 
 
-And we also plot the best 10 movies - which all sits in the left side of the plot:
+And we also plot the best 10 movies - which all sit in the left side of the plot:
 
 ![alt text](https://github.com/cs155cctw/project2/blob/master/plots/visualize_V_best10movies.png)
 
