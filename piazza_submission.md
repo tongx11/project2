@@ -25,3 +25,9 @@ As a conclusion: pupolar and good movies will appear in the left-bottom cornor o
 To verify this, we choose ten random movies, and plot their V[0] and V[1], and the numbers in the braket after the name of the movie means (NR, R), where NR is the number of ratings to that movie, and R is the average rating of that movie:
 
 ![alt text](https://github.com/cs155cctw/project2/blob/master/plots/visualize_V_random10movies.png)
+
+We see that the rule we observe above is basically correct:  pupolar and good movies will appear in the left-bottom cornor of our V[0]-V[1] plot, and less-popular and bad movies will appear in the top-right cornor of out plot.
+
+And some other verification: we plot the ten most popular movies -  not surprisingly, they all sits at the bottom of the plot:
+
+![alt text](https://github.com/cs155cctw/project2/blob/master/plots/visualize_V_mostpopular10movies.png)
