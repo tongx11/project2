@@ -10,5 +10,5 @@ So instead, we try to get the average V[0] and average V[1] for different groups
 
 The first thing we tried is to plot the average V[0] and V[1] for different "quality" of movies (here "quality" means average ratings of the movie), below is the plot:
 
-![alt text](https://github.com/cs155cctw/project2/blob/master/plots/visualize_V_bias_mostpopular10movies.png)
+![alt text](https://github.com/cs155cctw/project2/blob/master/plots/visualize_V_averageV_all_ratings.png)
 
