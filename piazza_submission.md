@@ -10,8 +10,7 @@ So instead, we compute the average V[0] and average V[1] for different groups of
 
 The first thing we try is to plot the average V[0] and V[1] for different genres of movies (the plot on the left):
 
-![alt text](https://github.com/cs155cctw/project2/blob/master/plots/visualize_V_averageV_all_generes.png)
-![alt text](https://github.com/cs155cctw/project2/blob/master/plots/visualize_V_random10movies_drama.png)
+![alt text](https://github.com/cs155cctw/project2/blob/master/plots/piazza/fig1.png)
 
 We find out that the movies on the right side of the plot (V[0]>0) are mostly classy and sophisticated with great storylines, for instance documentary and war movies; 
 and the movies on the left side (V[0]<0) are commercial movies, such as action and comedy movies.
@@ -23,8 +22,7 @@ As an example, we visualize 10 randomly picked drama movies (see the plot on the
 
 The next plot we make is the average V[0] and V[1] for different "popularity" of movies (here "popularity" means total number of ratings), below is the plot (the label shows the range of the total number of ratings N_R), see the left plot below:
 
-![alt text](https://github.com/cs155cctw/project2/blob/master/plots/visualize_V_averageV_all_num_of_ratings.png)
-![alt text](https://github.com/cs155cctw/project2/blob/master/plots/visualize_V_mostpopular10movies.png)
+![alt text](https://github.com/cs155cctw/project2/blob/master/plots/piazza/fig2.png)
 
 We can see that the larger V[0] and the smaller V[1], the more popular the movies are. It indicates that the popular movies are mostly relaxing (small V[1]) and classy (large V[0]). For example, musical and documentary movies are both classy, but people prefer musical movies because they provide a more cozy atmosphere. However, we observe one exception, which is very popular (420 < NR < 480) but has small V[0] (corresponding to commercial movies); this is understandable because many people watch those blockbusters.
 
@@ -32,7 +30,7 @@ Additonally, we visualize the 10 most popular movies (see the plot on the right 
 
 Lastly, we visualize movies in terms of their average ratings. The plot below shows the average V[0] and V[1] for different average ratings of the movie:
 
-![alt text](https://github.com/cs155cctw/project2/blob/master/plots/visualize_V_averageV_all_ratings.png)
+![alt text](https://github.com/cs155cctw/project2/blob/master/plots/piazza/fig3.png)
 
 There is a clear trend that people prefer more classy and sophisticated (large V[0]), and more cozy (small V[1]) movies.
 
