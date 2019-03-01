@@ -21,14 +21,16 @@ while for movies with V[1]<0, the content is more chill, such as children and an
 
 As an example, we visualize 10 randomly picked drama movies (see the plot on the right above). Clearly, most of them locate at the right side of the plot (V[0]>0).
 
-The next plot we make is the average V[0] and V[1] for different "popularity" of movies (here "popularity" means total number of ratings), below is the plot (the label shows the range of the total number of ratings N_R):
+The next plot we make is the average V[0] and V[1] for different "popularity" of movies (here "popularity" means total number of ratings), below is the plot (the label shows the range of the total number of ratings N_R), see the left plot below:
 
 ![alt text](https://github.com/cs155cctw/project2/blob/master/plots/visualize_V_averageV_all_num_of_ratings.png)
 ![alt text](https://github.com/cs155cctw/project2/blob/master/plots/visualize_V_mostpopular10movies.png)
 
-We can see that the larger V[0] and the smaller V[1], the more popular the movies are, which means that the popular movies are mostly chill (small V[1]), classy and sophisticated (large V[0]), for example, musical and documentary movies are both classy and sophisticated, but people prefer musical movies because they are more chill.
+We can see that the larger V[0] and the smaller V[1], the more popular the movies are, which means that the popular movies are mostly chill (small V[1]), classy and sophisticated (large V[0]), for example, musical and documentary movies are both classy and sophisticated, but people prefer musical movies because they are more chill. However, we observe one exception, which is very popular (420 < NR < 480) but has small V[0] (corresponding to commercial movies); this is understandable because many people watch those blockbusters.
 
-Then we also try to plot the average V[0] and V[1] for different "quality" of movies (here "quality" means average ratings of the movie), below is the plot (the label shows the range of the average rating R):
+For instance, we visualize the 10 most popular movies (see the plot on the right above). As we can see, all of them are in the V[1]<0 region, and the majority (60%) of them have V[0] > 0. But there are also movies in V[0] <0 region, for example, the movie "Independence Day" - a classic blockbuster.
+
+Lastly, we plot the average V[0] and V[1] for different "quality" of movies (here "quality" means average ratings of the movie), below is the plot (the label shows the range of the average rating R):
 
 ![alt text](https://github.com/cs155cctw/project2/blob/master/plots/visualize_V_averageV_all_ratings.png)
 
