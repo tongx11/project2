@@ -8,10 +8,16 @@ We first try to visualize V[0] and V[1] with a bunch of movies of choices (for e
 
 So instead, we try to get the average V[0] and average V[1] for different groups of movies.
 
-The first thing we try is to plot the average V[0] and V[1] for different "quality" of movies (here "quality" means average ratings of the movie), below is the plot (the label shows the range of the average rating R):
+The first thing we try is to plot the average V[0] and V[1] for different genres of movies:
+
+![alt text](https://github.com/cs155cctw/project2/blob/master/plots/visualize_V_averageV_all_generes.png)
+![alt text](https://github.com/cs155cctw/project2/blob/master/plots/visualize_V_random10movies_drama.png)
+
+
+Then we also try to plot the average V[0] and V[1] for different "quality" of movies (here "quality" means average ratings of the movie), below is the plot (the label shows the range of the average rating R):
 
 ![alt text](https://github.com/cs155cctw/project2/blob/master/plots/visualize_V_averageV_all_ratings.png)
-![alt text](https://github.com/cs155cctw/project2/blob/master/plots/visualize_V_random10movies_drama.png)
+
 
 So we clearly see that **the V[0] we get represents the quality of the movie: the better the movie, the larger V[0] is.**
 
