@@ -34,4 +34,4 @@ Lastly, we visualize movies in terms of their average ratings. The plot below sh
 
 There is a clear trend that people prefer more classy and sophisticated (large V[0]), and more cozy (small V[1]) movies.
 
-On Netflix, from a quick Google search, the number of active female subscribers are more than males. This also explains the trend we observe previously since female audience are geared to watch movies in 
+On Netflix, from a quick Google search, the number of active female subscribers are more than males, and the consumers are relatively young (almost 50% are below 35 yearsold) compared to Amazon subscribers. This also explains the trend we observe previously since female audience are tend to value movies more with storylines than scenes and younger generations are relatively less insterested in watching Film noir or documentaries. From the given Movielens database, we observe the most popular genres are drama and comedy, which corresponds to our understandings of V[0] and V[1].
