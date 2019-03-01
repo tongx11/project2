@@ -19,9 +19,9 @@ and the movies on the left side (V[0]<0) are commercial movies, such as action a
 For V[1], movies with V[1]>0 in general focus on serious topics, such as crime and documentary movies;
 while for movies with V[1]<0, the content is more chill, such as children and animation movies.
 
-As an example, we visualize 10 randomly picked drama movies (see the plot on the right above). Clearly, most of them locate at the right side of the plot.
+As an example, we visualize 10 randomly picked drama movies (see the plot on the right above). Clearly, most of them locate at the right side of the plot (V[0]>0).
 
-The next thing we try is to plot the average V[0] and V[1] for different "popularity" of movies (here "popularity" means total number of ratings), below is the plot (the label shows the range of the total number of ratings N_R):
+The next plot we make is the average V[0] and V[1] for different "popularity" of movies (here "popularity" means total number of ratings), below is the plot (the label shows the range of the total number of ratings N_R):
 
 ![alt text](https://github.com/cs155cctw/project2/blob/master/plots/visualize_V_averageV_all_num_of_ratings.png)
 ![alt text](https://github.com/cs155cctw/project2/blob/master/plots/visualize_V_mostpopular10movies.png)
