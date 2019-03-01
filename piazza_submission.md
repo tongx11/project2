@@ -18,7 +18,7 @@ and the movies on the left side (V[0]<0) are commercial movies, such as action a
 For V[1], movies with V[1]>0 in general focus on serious topics, such as crime and documentary movies;
 while for movies with V[1]<0, the content is more cheering and relaxing, such as children and animation movies.
 
-As an example, we visualize 10 randomly picked drama movies (see the plot on the right above). Clearly, most of them locate on the right side of the plot (V[0]>0). One thing to note that, Gone with the wind, which is the signature classical romance movie, is also present on this plot, which fit the described V[0] V[1] trend fairly well.
+As an example, we visualize 10 randomly picked drama movies (see the plot on the right above). Clearly, most of them locate on the right side of the plot (V[0]>0). One thing to note is that, Gone with the wind, as the signature classical romance movie, is also present on this plot, which fits the observed V[0] V[1] trend fairly well.
 
 The next plot we make is the average V[0] and V[1] for different "popularity" of movies (here "popularity" means total number of ratings), below is the plot (the label shows the range of the total number of ratings N_R), see the left plot below:
 
