@@ -13,7 +13,7 @@ The first thing we try is to plot the average V[0] and V[1] for different genres
 ![alt text](https://github.com/cs155cctw/project2/blob/master/plots/visualize_V_averageV_all_generes.png)
 ![alt text](https://github.com/cs155cctw/project2/blob/master/plots/visualize_V_random10movies_drama.png)
 
-We find out that the movies on the right side of the plot (V[0]>0) are mostly art movies, for instance documentary and war movies; 
+We find out that the movies on the right side of the plot (V[0]>0) are mostly classy and sophisticated, for instance documentary and war movies; 
 and the movies on the left side (V[0]<0) are commercial movies, such as action and comedy movies.
 
 For V[1], movies with V[1]>0 in general focus on serious topics, such as crime and documentary movies;
@@ -26,7 +26,7 @@ The next plot we make is the average V[0] and V[1] for different "popularity" of
 ![alt text](https://github.com/cs155cctw/project2/blob/master/plots/visualize_V_averageV_all_num_of_ratings.png)
 ![alt text](https://github.com/cs155cctw/project2/blob/master/plots/visualize_V_mostpopular10movies.png)
 
-We can see that the larger V[0] and the smaller V[1], the more popular the movies are, which means that the popular movies are mostly chill and art movies, for example, musical and documentary movies are both art movies, but people prefer musical movies because they are more chill.
+We can see that the larger V[0] and the smaller V[1], the more popular the movies are, which means that the popular movies are mostly chill (small V[1]), classy and sophisticated (large V[0]), for example, musical and documentary movies are both classy and sophisticated, but people prefer musical movies because they are more chill.
 
 Then we also try to plot the average V[0] and V[1] for different "quality" of movies (here "quality" means average ratings of the movie), below is the plot (the label shows the range of the average rating R):
 
