@@ -30,14 +30,9 @@ We can see that the larger V[0] and the smaller V[1], the more popular the movie
 
 For instance, we visualize the 10 most popular movies (see the plot on the right above). As we can see, all of them are in the V[1]<0 region, and the majority (60%) of them have V[0] > 0. But there are also movies in V[0] <0 region, for example, the movie "Independence Day" - a classic blockbuster.
 
-Lastly, we plot the average V[0] and V[1] for different "quality" of movies (here "quality" means average ratings of the movie), below is the plot (the label shows the range of the average rating R):
+Lastly, we visualize movies in terms of their average ratings. The plot below shows the average V[0] and V[1] for different average ratings of the movie:
 
 ![alt text](https://github.com/cs155cctw/project2/blob/master/plots/visualize_V_averageV_all_ratings.png)
 
-So we clearly see that **the V[0] we get represents the quality of the movie: the better the movie, the larger V[0] is.**
+There is a clear trend that people prefer more classy and sophisticated (large V[0]), and more chill (small V[1]) movies.
 
-**Conclusion: pupolar and good movies will appear in the bottom-right cornor of our V[0]-V[1] plot, and less-popular and bad movies will appear in the top-left cornor of out plot.**
-
-
-
-The END.
