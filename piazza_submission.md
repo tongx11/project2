@@ -4,14 +4,22 @@
 
 We directly use the solution code for Homework 5 to find the U and V. And then apply SVD on V and get the first two principal conponents of V.
 
-We first try to visualize V[0] and V[1] with a bunch of movies of choices (for example, 10 random movies, 10 mose popular movies, 10 best movies, etc.), but we can not find any clue how to interplate V[0] and V[1] (probably due to our lack of knowledge of the movies?).
+We first try to visualize V[0] and V[1] with a bunch of movies of choices (for example, 10 random movies, 10 mose popular movies, 10 best movies, etc.), but we can not find any clue how to interpret V[0] and V[1].
 
-So instead, we try to get the average V[0] and average V[1] for different groups of movies.
+So instead, we compute the average V[0] and average V[1] for different groups of movies.
 
-The first thing we try is to plot the average V[0] and V[1] for different genres of movies:
+The first thing we try is to plot the average V[0] and V[1] for different genres of movies (the plot on the left):
 
 ![alt text](https://github.com/cs155cctw/project2/blob/master/plots/visualize_V_averageV_all_generes.png)
 ![alt text](https://github.com/cs155cctw/project2/blob/master/plots/visualize_V_random10movies_drama.png)
+
+We find out that the movies on the right side of the plot (V[0]>0) are mostly art movies, for instance documentary and war movies; 
+and the movies on the left side (V[0]<0) are commercial movies, such as action and comedy movies.
+
+For V[1], movies with V[1]>0 in general focus on serious topics, such as crime and documentary movies;
+while for movies with V[1]<0, the content is more chill, such as children and animation movies.
+
+As an example, we visualize 10 randomly picked drama movies (see the plot on the right above). Clearly, most of them locate at the right side of the plot.
 
 The next thing we try is to plot the average V[0] and V[1] for different "popularity" of movies (here "popularity" means total number of ratings), below is the plot (the label shows the range of the total number of ratings N_R):
 
