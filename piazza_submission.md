@@ -2,32 +2,38 @@
 
 ## Submitted by: Liuchi Li, Stephanie (Weimeng) Kong, Xiao Tong, Zhicai Zhang
 
-We directly use the solution code for Homework 5 to find the U and V. And then apply SVD on V and get the first two principal conponents of V.
+We directly use the solution code for Homework 5 to find the U and V, and then apply SVD on V and get the first two principal components of V.
 
-We first try to visualize V[0] and V[1] with a bunch of movies of choices (for example, 10 random movies, 10 mose popular movies, 10 best movies, etc.), but we can not find any clue how to interplate V[0] and V[1] (probably due to our lack of knowledge of the movies?).
+We first try to visualize V[0] and V[1] with a bunch of movies of choices (for example, 10 random movies, 10 mose popular movies, 10 best movies, etc.), but we can not find any clue how to interpret V[0] and V[1].
 
-So instead, we try to get the average V[0] and average V[1] for different groups of movies.
+So instead, we compute the average V[0] and average V[1] for different groups of movies.
 
-The first thing we try is to plot the average V[0] and V[1] for different genres of movies:
+The first thing we try is to plot the average V[0] and V[1] for different genres of movies (the plot on the left):
 
-![alt text](https://github.com/cs155cctw/project2/blob/master/plots/visualize_V_averageV_all_generes.png)
-![alt text](https://github.com/cs155cctw/project2/blob/master/plots/visualize_V_random10movies_drama.png)
+![alt text](https://github.com/cs155cctw/project2/blob/master/plots/piazza/fig1.png)
 
-The next thing we try is to plot the average V[0] and V[1] for different "popularity" of movies (here "popularity" means total number of ratings), below is the plot (the label shows the range of the total number of ratings N_R):
+We find out that the movies on the right side of the plot (V[0]>0) are mostly classy and sophisticated with great storylines, for instance documentary and war movies; 
+and the movies on the left side (V[0]<0) are commercial movies, such as action and comedy movies.
 
-![alt text](https://github.com/cs155cctw/project2/blob/master/plots/visualize_V_averageV_all_num_of_ratings.png)
-![alt text](https://github.com/cs155cctw/project2/blob/master/plots/visualize_V_mostpopular10movies.png)
+For V[1], movies with V[1]>0 in general focus on serious topics, such as crime and documentary movies;
+while for movies with V[1]<0, the content is more cheering and relaxing, such as children and animation movies.
 
-Surprisingly, we also see that **the V[1] we get represents the popularity of the movie: the more popular the movie, the smaller V[1] is.**
+As an example, we visualize 10 randomly picked drama movies (see the plot on the right above). Clearly, most of them locate on the right side of the plot (V[0]>0). One thing to note is that, Gone with the wind, as the signature classical romance movie, is also present on this plot, which fits the observed V[0] V[1] trend fairly well.
 
-Then we also try to plot the average V[0] and V[1] for different "quality" of movies (here "quality" means average ratings of the movie), below is the plot (the label shows the range of the average rating R):
+The next plot we make is the average V[0] and V[1] for different "popularity" of movies (here "popularity" means total number of ratings), below is the plot (the label shows the range of the total number of ratings N_R), see the left plot below:
 
-![alt text](https://github.com/cs155cctw/project2/blob/master/plots/visualize_V_averageV_all_ratings.png)
+![alt text](https://github.com/cs155cctw/project2/blob/master/plots/piazza/fig2.png)
 
-So we clearly see that **the V[0] we get represents the quality of the movie: the better the movie, the larger V[0] is.**
+We can see that the larger V[0] and the smaller V[1], the more popular the movies are. It indicates that the popular movies are mostly relaxing (small V[1]) and classy (large V[0]). For example, musical and documentary movies are both classy, but people prefer musical movies because they provide a more cozy atmosphere. However, we observe one exception, which is very popular (420 < NR < 480) but has small V[0] (corresponding to commercial movies); this is understandable because many people watch those blockbusters.
 
-**Conclusion: pupolar and good movies will appear in the bottom-right cornor of our V[0]-V[1] plot, and less-popular and bad movies will appear in the top-left cornor of out plot.**
+Additonally, we visualize the 10 most popular movies (see the plot on the right above). As we can see, all of them are in the V[1]<0 region, and the majority (60%) of them have V[0] > 0. But there are also movies in V[0] <0 region, for example, the movie "Independence Day" - a classic blockbuster.
 
+Lastly, we visualize movies in terms of their average ratings. The plot below shows the average V[0] and V[1] for different average ratings of the movie:
 
+![alt text](https://github.com/cs155cctw/project2/blob/master/plots/piazza/fig3.png)
 
-The END.
+There is a clear trend that people prefer more classy and sophisticated (large V[0]), and more cozy (small V[1]) movies.
+
+On Netflix, from a quick Google search, the number of active female subscribers are more than males, and the consumers are relatively young (almost 50% are below 35 yearsold) compared to Amazon subscribers. This also explains the trend we observe previously since female audience are tend to value movies more with storylines than scenes and younger generations are relatively less insterested in watching Film noir or documentaries. From the given Movielens database, we observe the most popular genres are drama and comedy, which corresponds to our understandings of V[0] and V[1].
+
+Reference: http://www.businessofapps.com/data/netflix-statistics/
