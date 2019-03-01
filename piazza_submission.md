@@ -26,7 +26,7 @@ The next plot we make is the average V[0] and V[1] for different "popularity" of
 ![alt text](https://github.com/cs155cctw/project2/blob/master/plots/visualize_V_averageV_all_num_of_ratings.png)
 ![alt text](https://github.com/cs155cctw/project2/blob/master/plots/visualize_V_mostpopular10movies.png)
 
-Surprisingly, we also see that **the V[1] we get represents the popularity of the movie: the more popular the movie, the smaller V[1] is.**
+We can see that the larger V[0] and the smaller V[1], the more popular the movies are, which means that the popular movies are mostly chill and art movies, for example, musical and documentary movies are both art movies, but people prefer musical movies because they are more chill.
 
 Then we also try to plot the average V[0] and V[1] for different "quality" of movies (here "quality" means average ratings of the movie), below is the plot (the label shows the range of the average rating R):
 
